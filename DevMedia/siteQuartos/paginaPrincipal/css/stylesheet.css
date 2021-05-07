@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'source Sans Pro', sans-serif;
+}
+#thead { /* cabeçalho total */
+    position: relative;
+    padding: 20px;
+    border-style: double;
+}
+
+#home, a, h3, #rotas, .cabecalho {
+    display: table-cell;
+    position: relative;
+    text-decoration: none;
+    vertical-align:unset;
+    
+
+}
+
+#home a { 
+    box-sizing: border-box;
+    color: rgb(57, 78, 78);
+    border-top: 20px;
+    font-size: 25px;
+    font-weight:inherit;
+    left: 200px;
+}
+
+
+
+#home h3 {
+    left: 204px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: inherit;
+    color: rgb(70, 143, 148);
+}
+
+
+#thead #rotas a{
+    left: 900px;  
+    bottom: px;  
+    text-align: left;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.486);
+    padding: 0px 30px 0px 30px;
+} 
+
+#ilha img{
+    width: 100%;
+}
+
+#corpo .inicio {
+    position: relative;
+    text-align: center;
+    bottom: 550px;
+    background-color: rgba(88, 207, 114, 0.603);
+    padding: 100px 0px 100px 0px;
+    width: 50%;
+    height: 40%;
+    left: 390px;    
+    
+
+}
+
+ .inicio h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
